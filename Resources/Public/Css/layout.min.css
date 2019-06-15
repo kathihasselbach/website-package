@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri:400,500,600&display=swap');
+
+body {
+    background: #d8d8d8;
+}
+.container__margin {
+    margin: 65px 0;
+}
+.container__bg {
+    background-color: #fff;
+}
+
+/*** START Navigation ***/
+.navbar {
+    padding: 0;
+    background-color: #fff;
+}
+.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+    background: #7eaf74;
+    padding: 35px 35px;
+}
+.navbar-brand:hover {
+    color: #fff;
+}
+.navbar-nav .nav-item .nav-link {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #7eaf74;
+}
+.navbar-nav .nav-item.active .nav-link {
+    background-color: #7eaf74;
+    color: #fff;
+}
+/*** END Navigation ***/
+
+/*** START Banner ***/
+.banner__image--item img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+/*** END Banner ***/
+
+/*** START Content ***/
+.content {
+    padding: 50px 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+.news .article {
+    border-bottom: 2px solid #dadada;
+    padding-bottom: 60px;
+    margin: 0 35px 50px;
+}
+.news .article:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.article h2 {
+    margin: 0;
+}
+.article h2 a,
+.article h2 a:hover   {
+    font-size: 30px;
+    color: #7eaf74;
+    text-decoration: none;
+
+}
+.newsList__date {
+    color: #424242;
+    margin-bottom: 35px;
+}
+/*.teaser-text {
+    margin-bottom: 35px;
+}*/
+.news__teaser--text {
+    margin-bottom: 55px;
+}
+.news .more {
+    border: 1px solid #7eaf74;
+    color: #7eaf74;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 20px 15px
+}
+/*** END Content ***/
+
+
+/*** START Footer ***/
+footer .footer___content {
+    background-color: #2f2f2f;
+    padding: 30px 20px;
+    font-size: 14px;
+    color: #fff;
+}
+footer .footer___content p {
+    margin: 0;
+}
+/*** END Footer ***/

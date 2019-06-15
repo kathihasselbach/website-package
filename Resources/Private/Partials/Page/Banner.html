@@ -1,0 +1,9 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<div class="banner__image" id="banner">
+    <f:for each="{files}" as="image">
+        <div class="banner__image--item">
+            <f:image image="{image.originalFile}" treatIdAsReference="1" />
+        </div>
+    </f:for>
+</div>
+</html>
